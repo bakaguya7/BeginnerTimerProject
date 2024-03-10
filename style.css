@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Spline Sans", sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background-color: #fff;
+    }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 90%;
+    max-width: 1000px;
+    margin: 10vh auto;
+}
+
+.card {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 500px;
+
+    background-color: #fff;
+    padding: 1.5rem;
+  
+    .tag {
+      display: inline-block;
+        background-color: #FFAE26;
+        color: #fff;
+        font-style: italic;
+        font-size: 12px;
+        padding: 0.5em 0.75em;
+        line-height: 1;
+        border-radius: 6px;
+        margin-top: 1rem;
+    }
+  
+    .title {
+        font-size: 30px;
+        color: #141b22;
+        line-height: 1.25;
+        margin-top: 1rem;
+    }
+
+    input[type=number] {
+        padding: 8px;
+        width: 100%;
+        line-height: 1.25;
+        margin-top: 1.5rem;
+    }
+
+    .num {
+        text-align: center;
+        font-size: 70px;
+        margin-top: 2px;
+        margin-bottom: 3px;
+        color: #FFAE26;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-between;
+        gap: 3px;
+        line-height: 1.25;
+    }
+
+    .btn button {
+        flex: 1;
+        padding: 12px;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    .btn button:nth-child(1){
+        color: #fff;
+        background-color: #266AFF;
+    }
+
+    .btn button:nth-child(2){
+        color: #000;
+        background-color: #E4E5E8;
+    }
+
+    .btn button:nth-child(3){
+        color: #fff;
+        background-color: #FC266D;
+    }
+}
+
+.footer {
+    position: fixed;
+    font-size: 12px;
+    bottom: 10px;
+    left: 45%;
+}
+
+
+
+  
